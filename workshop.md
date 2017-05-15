@@ -36,6 +36,11 @@
 
 ## Python basics
 
+</div><div data-background-image="python.jpg" style="color: white">
+
+## Python's quite friendly
+
+
 </div><div>
 
 ### QGIS Python Console
