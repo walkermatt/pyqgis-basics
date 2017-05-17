@@ -9,8 +9,10 @@
     * QGIS 2.14 or >= 2.18.5
         * On Windows, Linux or Mac with Python support
 * Download sample data locally
-    * [Natural Earth, populated places](http://www.qgistutorials.com/downloads/ne_10m_populated_places_simple.zip)
-    * [Natural Earth, airports](http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_airports.zip)
+    * Natural Earth, populated places
+        * [http://bit.ly/2pVHwlp](http://bit.ly/2pVHwlp)
+    * Natural Earth, airports
+        * [http://bit.ly/2qQvqP9](http://bit.ly/2qQvqP9)
 
 </div><div>
 
@@ -18,7 +20,7 @@
 
 * What's possible
 * Python basics
-* PyQGIS Exercises
+* PyQGIS exercises
 
 </div><div>
 
@@ -29,6 +31,7 @@
     * project open, save or close
 * *Custom expressions*
 * *Python console & scripts*
+* Processing scripts
 * Plugins
 * Standalone applications
 
@@ -201,8 +204,8 @@
 
 ### Objects
 
-    # Objects have a value and methods which
-    # operate on the value
+    # Objects represent a value and expose
+    # properties and methods
     'qgis'.upper()
 
     # You work with a lot of objects in PyQGIS!
@@ -219,6 +222,7 @@
     # When we find a method or property we're
     # interested in we can use it
     iface.activeLayer().extent()
+
 
 </div><div>
 
@@ -241,7 +245,13 @@
 
 </div><div>
 
-## PyQGIS Exercises
+<a href="http://labs.webgeodatavore.com/partage/diagramme_principal.html"><img src="pyqgis_api.png" /></a>
+
+</div><div data-background-image="kitten.jpg" style="color: white">
+
+</div><div>
+
+## PyQGIS exercises
 
 * [Using Custom Python Expression Functions](https://astuntechnology.github.io/qgis-tutorials/html/en/docs/custom_python_functions.html)
 * [Getting Started With Python Programming](https://astuntechnology.github.io/qgis-tutorials/html/en/docs/getting_started_with_pyqgis.html)
